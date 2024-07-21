@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 480px) {
+    p{
+        background-color: black;
+         color:red;
+     }
+ }
+
 body {
     background: linear-gradient(131deg, #00ffbd, #847bff, #c181df, #1fd0a4, #f97cef, #f9ff00);
     background-size: 1200% 1200%;
